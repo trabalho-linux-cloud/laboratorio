@@ -1,0 +1,8 @@
+imports:
+- path: prod-network.jinja
+
+resources:
+- name: griffin-prod-vpc
+  type: prod-network.jinja
+  properties:
+    region: us-east1
